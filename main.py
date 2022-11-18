@@ -12,7 +12,7 @@ def query(data):
     response = requests.request("POST", API_URL, headers=headers, data=data)
     return json.loads(response.content.decode("utf-8"))
 
-if name == '__main__':
+if __name__ == '__main__':
 
     page_title = "Skin cancer detection"
     page_icon = ":monkey:"
