@@ -12,6 +12,11 @@ headers = {"Authorization": f"Bearer {API_TOKEN}"}
 links = {
     "Melanoma": "https://www.wikipedia.org/wiki/Melanoma",
     "Vascular-lesions": "https://en.wikipedia.org/wiki/Vascular_anomaly",
+    "Benign-keratosis-like-lesions":"https://www.mayoclinic.org/diseases-conditions/seborrheic-keratosis/symptoms-causes/syc-20353878#:~:text=A%20seborrheic%20keratosis%20(seb%2Do,or%20scaly%20and%20slightly%20raised.",
+    "Basal-cell-carcinoma":"https://www.mayoclinic.org/diseases-conditions/basal-cell-carcinoma/symptoms-causes/syc-20354187#:~:text=on%20brown%20skin-,Basal%20cell%20carcinoma%20is%20a%20type%20of%20skin%20cancer%20that,a%20type%20of%20skin%20cancer.",
+    "Melanocytic-nevi":"https://en.wikipedia.org/wiki/Melanocytic_nevus",
+    "Actinic-keratoses":"https://www.mayoclinic.org/diseases-conditions/actinic-keratosis/symptoms-causes/syc-20354969",
+    "Dermatofibroma":"https://dermnetnz.org/topics/dermatofibroma",
 }
 
 def query(data):
